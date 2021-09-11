@@ -11,9 +11,9 @@ simple web with node.js (passport is used for authentication)
 # Register page
 ![bavard3](https://user-images.githubusercontent.com/74845274/132932225-49fe760b-84fc-4840-a6df-2eb47b7c6538.png)
 
-# passport
+# passport - google oauth
 ![bavard4](https://user-images.githubusercontent.com/74845274/132932226-0ad4bf36-1e20-4caf-9cce-dac5a38a4974.png)
 
-# passport
+# passport kakao
 ![bavard5](https://user-images.githubusercontent.com/74845274/132932227-ae36d475-c780-4227-8ab1-2d81642e7af9.png)
 
