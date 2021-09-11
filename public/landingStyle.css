@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    margin-bottom: 19px;
+   
+
+}
+
+.nav{
+    display:flex;
+    list-style: none;
+ 
+
+}
+
+.nav a{
+    text-decoration: none;
+    color:black;
+    padding-right: 1rem;
+    font-size: 1.4rem;
+}
+
+.logo{
+    font-size:1.4rem;
+    font-weight: 1000;
+}
+.container{
+    background-image: url("/bavard.svg");
+    background-repeat :no-repeat; 
+    height:90vh;
+    background-size : cover;
+    position:relative;
+}
+
+
+.btn{
+    position:absolute;
+    margin-top: 405px;
+    margin-left:47px;
+}
+
+
+button{
+    padding:1rem 4rem 1rem;
+    border-style: none;
+    margin-right:0.7rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.buttonItem:hover{
+    background-color:rgb(211, 255, 211);
+}

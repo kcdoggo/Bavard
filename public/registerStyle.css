@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*:focus {
+    outline: none;
+}
+
+*{
+    font-family: 'Roboto Slab','Nanum Gothic', sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html { 
+    background: url("/register.svg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+  .join-form{
+      margin-top:90px;
+      margin-left:63%;
+  }
+
+  h1{
+      font-size: 50px;
+      color: black;
+      margin-bottom: 30px;
+  }
+
+
+  input, form, button{
+    display: block;
+    width: 390px;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 9px;
+    outline: none;
+    background-color: #E8F0FE;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border-style: none;
+
+}
+
+
+
+.input-group{
+    margin-bottom: 20px;
+}
+
+button{
+    border-radius: 8px;
+    border-style: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #E7C54D;
+    color:white;
+    font-weight: 700;
+}

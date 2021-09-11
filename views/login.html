@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link href="/loginStyle.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">   
+    <form class="login-form" action="/auth/login" method="post">
+        
+        <div class="input-group" id="input1">
+            <h1>BAVARD</h1>
+          <label for="email"><h2>이메일</h2></label>
+          <input id="email" placeholder="email@address.com" type="email" name="email" required autofocus>
+        </div>
+
+        <div class="input-group">
+          <label for="password"><h2>비밀번호</h2></label>
+          <input id="password" placeholder="passwords" type="password" name="password" required>
+        </div>
+        <button id="login" type="submit" class="btn">로그인</button>
+            <p>OR</p>
+        <a id="kakao" href="/auth/kakao" class="btn">
+            <img class="kakaoIcon" scr="./kakao_login_medium_narrow.png"/>
+        </a>
+        <a class="google" href="/auth/google">구글 로그인 </a>
+        <a id="join" href="/join" >회원가입</a>
+    </form>
+    </div>
+
+</body>
+</html>
